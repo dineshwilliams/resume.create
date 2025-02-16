@@ -29,7 +29,7 @@
             <button id="crea"> <a href="{% url 'myapp:login' %}" id="crea1">Create Resume</a></button> <button id="b2"> <a href="{% url 'myapp:login' %}" id="crea2">Choose Template</a></button>
         </section>
     </main>
-    <a href="{% url 'myapp:create_resume' %}"><img src="{% static 'image/template.png' %}" alt="Template PDF" id="temp">
+    <a href="{% url 'myapp:login' %}"><img src="{% static 'image/template.png' %}" alt="Template PDF" id="temp">
         </a>
     <img src="../static/image/arrow.png" alt="" id="arrow">
     <a href="{% url 'myapp:login' %}" id="crea3">Templates</a>

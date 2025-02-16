@@ -94,3 +94,35 @@ button{
    transform: translateY(-100%);
    animation: slide-in 2s ease-out forwards;
 }
+/* #forgot-password {
+   color: white;
+   text-decoration: none;
+   position: relative;
+   left: 2rem;
+   top: 5rem;
+}
+.social-login {
+   text-align: center;
+   margin-top: 2rem;
+}
+
+.google-btn, .facebook-btn {
+   display: block;
+   width: 80%;
+   padding: 10px;
+   margin: 10px auto;
+   text-align: center;
+   font-size: 1.2rem;
+   border-radius: 5px;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+.google-btn {
+   background-color: #db4437;
+}
+
+.facebook-btn {
+   background-color: #3b5998;
+} */

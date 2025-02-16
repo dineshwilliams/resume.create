@@ -63,3 +63,4 @@ def contact(request):
             Contact.objects.create(name=name, mail=mail, phone=phone, feedback=feedback)
         return redirect('myapp:base')
     return render(request,'contact.html')
+
